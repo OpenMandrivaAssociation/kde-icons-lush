@@ -12,7 +12,7 @@ License:	GPL
 Group:		Graphical desktop/KDE
 Source:		%{theme_name}-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=5483
-Requires:	kdebase
+Requires:	kdebase-progs
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 Provides:	kdemoreartwork-%{theme_name}
