@@ -2,7 +2,7 @@
 %define theme_name	lush
 %define version		0.1.0
 %define name		%{base_name}-%{theme_name}
-%define release %mkrel 5
+%define release %mkrel 6
 
 Name:		%{name}
 Version:	%{version}
@@ -12,7 +12,7 @@ License:	GPL
 Group:		Graphical desktop/KDE
 Source:		%{theme_name}-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=5483
-Requires:	kdebase-progs
+Requires:	kdebase3-progs
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 Provides:	kdemoreartwork-%{theme_name}
