@@ -2,7 +2,7 @@
 %define theme_name	lush
 %define version		0.1.0
 %define name		%{base_name}-%{theme_name}
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name:		%{name}
 Version:	%{version}
