@@ -2,7 +2,7 @@
 %define theme_name	lush
 %define version		0.1.0
 %define name		%{base_name}-%{theme_name}
-%define release %mkrel 8
+%define release 9
 
 Name:		%{name}
 Version:	%{version}
@@ -69,7 +69,7 @@ rm -rf $RPM_BUILD_ROOT
 - import kde-icons-lush
 
 
-* Tue Jul 11 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.1.0-3mdv2007.0
+* Tue Jul 11 2006 Nicolas Lï¿½cureuil <neoclust@mandriva.org> 0.1.0-3mdv2007.0
 - Rebuild for new extension
 - use mkrel
 
